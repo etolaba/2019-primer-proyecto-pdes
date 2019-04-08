@@ -1,0 +1,20 @@
+{
+  "name": "primer-proyecto",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto en PDes",
+  "main": "index.js",
+  "author": "esteban",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1"
+  }
+}
