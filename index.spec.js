@@ -9,7 +9,7 @@ describe("pepita basica", () => {
 
     it("deberia comer y ganar energia", () => {
         const pepita = crearGolondrina();
-        pepita.comer(3)
+        pepita.comer(4)
         expect(pepita.energia).toEqual(36)
     })
 })
